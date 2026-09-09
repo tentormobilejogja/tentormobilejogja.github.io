@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SMAN 1 Sewon Bantul - Beranda</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <div class="nav-container">
+            <div class="logo">SMAN 1 SEWON</div>
+            <nav>
+                <ul>
+                    <li><a href="index.html" class="active">Beranda</a></li>
+                    <li><a href="profil.html">Profil</a></li>
+                    <li><a href="info-kelas.html">Info Kelas</a></li>
+                    <li><a href="kegiatan.html">Kegiatan</a></li>
+                    <li><a href="berita.html">Berita</a></li>
+                    <li><a href="kontak.html">Kontak Us</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <div class="container">
+        <div class="slider-container">
+            <div class="slide active">
+                <img src="https://picsum.photos/1200/400?random=1" alt="Kegiatan Upacara">
+                <div class="slide-caption">1. Upacara Bendera dan Pembinaan Karakter Siswa</div>
+            </div>
+            <div class="slide">
+                <img src="https://picsum.photos/1200/400?random=2" alt="Asesmen Nasional">
+                <div class="slide-caption">2. Pelaksanaan Asesmen Berbasis Komputer (ANBK)</div>
+            </div>
+            <div class="slide">
+                <img src="https://picsum.photos/1200/400?random=3" alt="Pentas Seni">
+                <div class="slide-caption">3. Unjuk Gelar Seni & Budaya Budaya Jogja</div>
+            </div>
+            <div class="slide">
+                <img src="https://picsum.photos/1200/400?random=4" alt="Kegiatan Pramuka">
+                <div class="slide-caption">4. Kemah Blok dan Penerimaan Tamu Ambalan</div>
+            </div>
+            <div class="slide">
+                <img src="https://picsum.photos/1200/400?random=5" alt="Prestasi Sekolah">
+                <div class="slide-caption">5. Penyerahan Penghargaan Kejuaraan Sains & Olahraga</div>
+            </div>
+
+            <button class="prev" onclick="moveSlide(-1)">&#10094;</button>
+            <button class="next" onclick="moveSlide(1)">&#10095;</button>
+        </div>
+
+        <div class="grid-2">
+            <div class="card">
+                <h3>Informasi Kegiatan Rutin</h3>
+                <ul style="padding-left: 20px;">
+                    <li><strong>Senin:</strong> Upacara Bendera / Apel Pagi Pekanan</li>
+                    <li><strong>Jumat:</strong> Senam Sehat, Literasi, dan Kebersihan Lingkungan</li>
+                    <li><strong>Selasa - Kamis:</strong> Pelaksanaan Kegiatan Ekstrakurikuler Wajib & Pilihan</li>
+                </ul>
+            </div>
+            <div class="card">
+                <h3>Informasi Berita Terbaru</h3>
+                <article>
+                    <h4>Penerimaan Peserta Didik Baru (PPDB)</h4>
+                    <p>Informasi alur pendaftaran, kuota, dan jadwal verifikasi berkas calon siswa baru...</p>
+                </article>
+                <hr style="margin: 10px 0;">
+                <article>
+                    <h4>Prestasi Tim Robotik Sekolah</h4>
+                    <p>Selamat kepada tim robotik SMAN 1 Sewon yang berhasil mengukir prestasi tingkat nasional...</p>
+                </article>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <p>&copy; 2026 SMAN 1 Sewon Bantul. All Rights Reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

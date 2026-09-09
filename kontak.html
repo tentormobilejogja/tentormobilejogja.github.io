@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kontak Us - SMAN 1 Sewon Bantul</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="nav-container">
+            <div class="logo">SMAN 1 SEWON</div>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Beranda</a></li>
+                    <li><a href="profil.html">Profil</a></li>
+                    <li><a href="info-kelas.html">Info Kelas</a></li>
+                    <li><a href="kegiatan.html">Kegiatan</a></li>
+                    <li><a href="berita.html">Berita</a></li>
+                    <li><a href="kontak.html" class="active">Kontak Us</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <div class="container">
+        <div class="grid-2">
+            <div class="card">
+                <h2>Alamat & Kontak</h2>
+                <p><strong>Lokasi:</strong> Jl. Parangtritis Km. 4.5, Sewon, Bantul, D.I. Yogyakarta</p>
+                <p><strong>Telepon:</strong> (0274) 123456</p>
+                <p><strong>Email:</strong> info@sman1sewon.sch.id</p>
+            </div>
+            
+            <div class="card">
+                <h2>Kirim Pesan</h2>
+                <form class="contact-form" action="#" method="post" onsubmit="event.preventDefault(); alert('Pesan berhasil terkirim!');">
+                    <input type="text" placeholder="Nama Lengkap" required>
+                    <input type="email" placeholder="Alamat Email" required>
+                    <textarea rows="4" placeholder="Tuliskan pesan Anda di sini..." required></textarea>
+                    <button type="submit">Kirim Pesan</button>
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <p>&copy; 2026 SMAN 1 Sewon Bantul. All Rights Reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
